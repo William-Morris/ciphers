@@ -132,7 +132,7 @@ class Atbash_Cipher:
     def decode(self,cipher):
         return self.translate(cipher)
 
-    def encode(self.phrase):
+    def encode(self,phrase):
         sub_phrase = self.translate(phrase)
         encoded_cipher = ''
         for spaces in range(0,len(sub_phrase),5):
